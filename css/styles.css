@@ -10243,12 +10243,12 @@ body {
 
 .about-section {
   padding-top: 10rem;
-  background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);
+  /*background: linear-gradient(to bottom, #000000 0%, rgba(0, 0, 0, 0.9) 75%, rgba(0, 0, 0, 0.8) 100%);*/
+  background: #F8F9FA;
 }
 .about-section p {
   margin-bottom: 5rem;
 }
-
 .projects-section {
   padding: 10rem 0;
 }
@@ -10258,7 +10258,7 @@ body {
 @media (min-width: 992px) {
   .projects-section .featured-text {
     padding: 0 0 0 2rem;
-    border-left: 0.5rem solid #64a19d;
+    border-left: 0.5rem solid #EE1620;
   }
 }
 .projects-section .project-text {
@@ -10270,13 +10270,13 @@ body {
     padding: 5rem;
   }
   .projects-section .project-text hr {
-    border-color: #64a19d;
+    border-color: #EE1620;
     border-width: 0.25rem;
     width: 30%;
   }
 }
 
-.signup-section {
+/*.signup-section {
   padding: 10rem 0;
   background: linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url("../assets/img/bg-signup.jpg");
   background-position: center;
@@ -10331,7 +10331,7 @@ body {
 .contact-section .social a:active {
   color: #fff;
 }
-
+*/
 .footer {
   padding: 5rem 0;
 }
