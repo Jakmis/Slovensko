@@ -1,1 +1,1 @@
-"# évodn¡ str nka slovensk‚ republiky" 
+# ÃšvodnÃ­ strÃ¡nka slovenskÃ© republiky
