@@ -48,4 +48,48 @@
     navbarCollapse();
     // Collapse the navbar when page is scrolled
     $(window).scroll(navbarCollapse);
+
+    /*$("#vlajka").click(function(){
+        const audio = new Audio("assets/music/Slovenská hymna - CELÁ NECENZÚROVANÁ.mp3");
+        audio.play();
+    })*/
+    $(document).ready(function() {
+        var audioElement = document.createElement('audio');
+        audioElement.setAttribute('src', 'assets/music/Slovenská hymna - CELÁ NECENZÚROVANÁ.mp3');
+        
+        audioElement.addEventListener('ended', function() {
+            this.play();
+        }, false);
+        
+        audioElement.addEventListener("canplay",function(){
+            $("#length").text("Duration:" + audioElement.duration + " seconds");
+            $("#source").text("Source:" + audioElement.src);
+            $("#status").text("Status: Ready to play").css("color","green");
+        });
+        
+        audioElement.addEventListener("timeupdate",function(){
+            $("#currentTime").text("Current second:" + audioElement.currentTime);
+        });
+        
+        $('#play').click(function() {
+            audioElement.play();
+            $("#status").text("Status: Playing");
+            $.fn.visible = function() {
+                return this.each(function() {
+                    $(this).css("visibility", "visible"); 
+                });  
+            };
+            $("#pause").visible();
+            $("#restart").visible();
+        });
+        
+        $('#pause').click(function() {
+            audioElement.pause();
+            $("#status").text("Status: Paused");
+        });
+        
+        $('#restart').click(function() {
+            audioElement.currentTime = 0;
+        });
+    })
 })(jQuery); // End of use strict

@@ -10342,3 +10342,6 @@ body {
 #historie img{
   height: 350px;
 }
+#pause, #restart{
+  visibility: hidden;
+}
