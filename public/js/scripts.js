@@ -127,12 +127,12 @@
 
      ];
 
-    heroes.forEach((hero)=>{
+/*    heroes.forEach((hero)=>{
         $("#postavy .list-group").append(`<li class="list-group-item list-group-item-action list-group-item-primary">${hero.name}</li>`);
     });
 
 
-    function fillPersonCard(person) {
+    function fillPersonCard(heroes, person) {
         let hero = heroes.find(item => {return item.name === person});
         $(".card-header").html(`<i class="fas fa-star-of-life"></i> <b>${hero.birth}</b> - <i class="fas fa-cross"></i> <b>${hero.death}</b>`);
         $(".card-title").text(hero.name);
@@ -164,7 +164,46 @@
 
         $("#portret").slideDown(1000);
     });
+ */
+
+    function heroesBlock(heroes) {
+        heroes.forEach((hero) => {
+           $("#postavy .list-group").append(`<li class="list-group-item list-group-item-action list-group-item-primary">${hero.name}</li>`);
+        });
+        $("#postavy li:first").addClass('active');
+        fillPersonCard(heroes, heroes[0].name);
+        $("#postavy li").on("click", function () {    
+           $("#postavy li").removeClass("active");
+           $(this).addClass("active"); 
+           let person = $(this).text();
+           $("#portret").slideUp(1000, function () {
+              fillPersonCard(heroes, person);
+           });
+           $("#portret").slideDown(1000);
+        });
+     }
+     function fillPersonCard(heroes, person) {
+        let hero = heroes.find(item => {
+           return item.name === person
+        });
+        $(".card-header").html(`<i class="fas fa-star-of-life"></i> <b>${hero.birth}</b> - <i class="fas fa-cross"></i> <b>${hero.death}</b>`);
+        $(".card-title").text(hero.name);
+        $(".card-text").text(hero.biography);
+        $(".card-footer").html(`Odkaz: <a href="${hero.online}">${hero.online}</a>`);
+     }
     
+    fetch('js/characters.json')
+        .then(response => {
+            console.log(response);
+            return response.json()
+        })
+        .then(json =>{
+            console.log(json);
+            heroesBlock(json);
+        })
+        .catch(function (error) {
+            console.log('Chyba: \n', error);
+        });
 
 })(jQuery);
 

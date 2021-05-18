@@ -1,0 +1,23 @@
+{
+  "name": "slovenska-republika",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jakmis/Slovensko.git"
+  },
+  "author": "Jakub Hudymač",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Jakmis/Slovensko/issues"
+  },
+  "homepage": "https://github.com/Jakmis/Slovensko#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
