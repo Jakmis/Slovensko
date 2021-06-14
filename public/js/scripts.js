@@ -168,7 +168,7 @@
 
     function heroesBlock(heroes) {
         heroes.forEach((hero) => {
-           $("#postavy .list-group").append(`<li class="list-group-item list-group-item-action list-group-item-primary">${hero.name}</li>`);
+           $("#postavy .list-group").append(`<li class="list-group-item list-group-item-action list-group-item-primary user-select-none">${hero.name}</li>`);
         });
         $("#postavy li:first").addClass('active');
         fillPersonCard(heroes, heroes[0].name);
@@ -190,6 +190,10 @@
         $(".card-title").text(hero.name);
         $(".card-text").text(hero.biography);
         $(".card-footer").html(`Odkaz: <a href="${hero.online}">${hero.online}</a>`);
+        $(".gallery").empty();
+        for (let i = 0; i < hero.portraits.length; i++) {
+            $(".gallery").append(`<div class="col-sm-4 "><img src="assets/img/${hero.portraits[i]}" alt="" class="img-fluid"></a></div>`);
+        }
      }
     
     fetch('js/characters.json')

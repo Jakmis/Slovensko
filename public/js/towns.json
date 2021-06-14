@@ -1,0 +1,58 @@
+[
+    {
+        "id":"blava",
+      "city":"Bratislava",
+      "sign":"bratislava_znak.png",
+      "peoples": 430000,
+      "text":"Bratislava (německy Pressburg, maďarsky Pozsony, latinsky Posonium, do roku 1919 slovensky Prešporok / Prešporek, do roku 1919 česky Prešpurk) je hlavní a největší město Slovenska, centrum Bratislavského kraje a historická metropole někdejších žup Prešpurské a Bratislavské. Rozkládá se na obou březích Dunaje, v jihozápadní části země, při hranici s Rakouskem a Maďarskem. Symbolem Bratislavy (vyobrazeným i na jejím logu) je Bratislavský hrad se čtyřmi věžemi v rozích a nádvořím uprostřed, nebo také architektonicky zajímavý Most SNP (postavený v druhé polovině 20. století), klenoucí se nedaleko historického jádra metropole jako jeden z pěti mostů přes Dunaj, který Bratislavou protéká."
+    },
+    {
+        "id":"trnava",
+        "city":"Trnava",
+        "sign":"trnava_znak.png",
+        "peoples": 65713,
+        "text":"Trnava (maďarsky Nagyszombat, německy Tyrnau, latinsky Tyrnavia) je krajské a okresní město na západním Slovensku, 44 km severovýchodně od Bratislavy, v centru Trnavské pahorkatiny na řece Trnávce, ve výšce 146 m n. m. Trnava je důležité historické a kulturní centrum, je sídlem dvou univerzit a arcibiskupství. V roce 2014 zde žilo 65 713 obyvatel a bylo tak sedmým největším slovenským městem."
+    },
+    {
+        "id":"nitra",
+        "city":"Nitra",
+        "sign":"nitra_znak.png",
+        "peoples": 78000,
+        "text":"Nitra (maďarsky Nyitra, německy Neutra) je krajské a okresní město na Slovensku. Leží na jihu země, na stejnojmenné řece. V roce 2010 zde žilo přes 78 000 obyvatel a bylo tak pátým největším slovenským městem. Nitra byla centrem nitranského knížectví, jež bylo za knížete Pribiny připojeno k velkomoravské říši. I později si město s nitranským hradem udrželo význam důležitého správního centra."
+    },
+    {
+        "id":"trencin",
+        "city":"Trenčín",
+        "sign":"trencin_znak.png",
+        "peoples": 120000,
+        "text":"Trenčín (maďarsky Trencsén, německy Trentschin, latinsky Trentsinium nebo Laugaricio) je krajské a okresní město na západě Slovenska na řece Váh, 110 km severovýchodně od Bratislavy, 12 km od hranic s Českem. Se svými přibližně 56 tisíci obyvateli je 9. největším slovenským městem. Patří mezi nejstarší slovenská města. Jeho vznik determinovalo zúžené místo údolí Váhu, kde byl na vyvýšenině nad řekou vybudován Trenčínský hrad s rozhledem na kotliny po i proti proudu. Po řadu staletí byl hrad a posléze město pod ním střediskem uherské župy zahrnující střední i horní Pováží. Za Československa byl Trenčín jen řadovým okresním městem (součást Bratislavského, resp. Západoslovenského kraje), ale po osamostatnění Slovenska je od roku 1996 opět střediskem vlastního kraje a celostátně významným centrem obchodu, hospodářství, kultury a sportu. Svá sídla a pobočky zde mají mnohé instituce a společnosti. Dlouholetou tradici ve městě mají výstavy a veletrhy, město je známé i jako město módy. Trenčín je přirozeným geografickým centrem středního Pováží, kde se stýkají dopravní tahy vedoucí údolím Váhu s kolmými trasami z Moravy do slovenského vnitrozemí. Trenčínský úsek středního Pováží je zároveň jednou z nejsouvisleji urbanizovaných aglomerací na Slovensku. Představuje ji především pás měst a obcí táhnoucí se mezi Trenčínem a Púchovem po levém břehu Váhu v délce téměř 40 kilometrů: Trenčianska Teplá, Nová Dubnica, Dubnica nad Váhom, Ilava, Košeca, Ladce a Beluša. Zde žije asi 120 000 obyvatel."
+    },
+    {
+        "id":"bystrica",
+        "city":"Banská Bystrica",
+        "sign":"bystrica_zank.png",
+        "peoples": 78000,
+        "text":"Banská Bystrica (maďarsky Besztercebánya, německy Neusohl, česky též Báňská Bystřice či Banská Bystřice) je krajské a okresní město na Slovensku ve Slovenském rudohoří na řece Hron, 165 km severovýchodně od Bratislavy, sídlo bánskobystrické diecéze a Univerzity Mateja Bela. Žije zde přibližně 78 tisíc obyvatel a bylo tak šestým největším slovenským městem."
+    },
+    {
+        "id":"kosice",
+        "city":"Košice",
+        "sign":"kosice_znak.png",
+        "peoples": 239000,
+        "text":"Košice (zvuk česky, německy Kaschau, maďarsky Kassa) jsou druhé nejlidnatější město Slovenska a přirozená metropole východoslovenského regionu. Jsou sídlem Ústavního soudu SR a Košického samosprávného kraje. Ve městě žije přibližně 239 tisíc obyvatel, v košické aglomeraci v roce 2011 žilo 355 000 obyvatel. Město je také centrem košicko-prešovské aglomerace s 555 800 obyvateli, která patří mezi největší městská seskupení na Slovensku. Košice jsou významným centrem politického, hospodářského, kulturního a církevního života, sídlem Ústavního soudu SR, košické řeckokatolické eparchie, košické římskokatolické arcidiecéze a sídlem metropolity. V Košicích sídlí Univerzita P. J. Šafárika a Technická univerzita a Univerzitní nemocnice Louise Pasteura, jejíž budova na třídě SNP o výšce 83 metrů, postavená v roce 1979, je nejvyšší budovou ve městě. Město je střediskem významných kulturních institucí i s celoslovenskou působností, mezi něž patří Státní divadlo Košice, Státní filharmonie Košice, Slovenské technické muzeum, Východoslovenské muzeum, Východoslovenská galerie a Státní vědecká knihovna. Největší menšinu na území města tvoří Maďaři s podílem 3,78 % (podle sčítání obyvatelstva v roce 2001). Pro její potřeby byl zřízen maďarský konzulát. Město hraje důležitou roli v dopravním propojení východ-západ, kde tvoří spojnici mezi západní a střední Evropou a Ukrajinou s Ruskem prostřednictvím širokorozchodné i normálněrozchodné železniční tratě. Košické mezinárodní letiště zprostředkovává rychlé spojení se západní a střední Evropou pro obyvatele celého Východoslovenského regionu. Ve městě je zastoupen hutnický a strojírenský průmysl. Nachází se zde také skupina firem informačních a telekomunikačních technologií. Košice mají silnou pozici v rámci Karpatského euroregionu, má tu sídlo jeho slovenská sekce. Spolu s partnerským městem Miškovec vytvořilo v roce 2000 metropolitní Euroregion Košice-Miskolc. Odrazem bohaté historie města je jeho centrum s početnými klenoty gotické, barokní a klasicistní architektury, které tvoří největší městskou památkovou rezervací na Slovensku. Její nejvýznamnější dominantou je největší gotická katedrála na Slovensku, katedrála svaté Alžběty. V roce 2006 Košice navštívilo 260 000 turistů, nejvíc jich bylo z Česka. Město zvítězilo nad Prešovem, Martinem a Nitrou v souboji o prestižní titul Evropského hlavního města kultury, kterým se stalo pro rok 2013."
+    },
+    {
+        "id":"presov",
+        "city":"Prešov",
+        "sign":"presov_znak.png",
+        "peoples": 89000,
+        "text":"Prešov (maďarsky Eperjes, německy Eperies a 1938–1945 i Preschau, polsky Preszów, ukrajinsky Пряшів (Prjašiv), rusky Пряшев (Prjašev), latinsky Fragopolis nebo Eperiessinum, romsky Perješis, přezdívaný také jako Atény nad Torysou) je krajské a okresní město na Slovensku. Se svými přibližně 89 tisíci obyvateli je tak po Bratislavě a Košicích třetím největším slovenským městem. Město má čtyři katastrální části: Prešov, Šalgovík, Solivar a Nižná Šebastová. Je sídlem archeparchy prešovského, hlavy Slovenské řeckokatolické církve a patří do Košicko-prešovské aglomerace."
+    },
+    {
+        "id":"zilina",
+        "city":"Žilina",
+        "sign":"zilina_znak.png",
+        "peoples": 82700,
+        "text":"Žilina (německy Sillein nebo Silein, maďarsky Zsolna, polsky Żylina, latinsky Solna) je krajské a okresní město na Slovensku, 170 km severovýchodně od Bratislavy, na soutoku řek Váhu a Kysuce v Žilinské kotlině, 28 km od hranic s Českem. Jedná se o důležité průmyslové i dopravní centrum, sídlo univerzity a od roku 2008 i biskupa římskokatolické žilinské diecéze. V květnu 2020 zde žilo přes 82 700 obyvatel a bylo tak čtvrtým největším slovenským městem."
+    }
+]
